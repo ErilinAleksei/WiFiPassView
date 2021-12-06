@@ -10,6 +10,7 @@ View::View(const QStringList &nameHeader, QWidget *parent) : QTreeWidget(parent)
     header()->setSectionResizeMode(QHeaderView::Stretch);
     setHeaderLabels(nameHeader);
     setSortingEnabled(true);
+    setRootIsDecorated(false);
 }
 
 void View::addData(const QVector<QString> &ssid, const QVector<QString> &auth, const QVector<QString> &encrypt, const QVector<QString> &passwd){

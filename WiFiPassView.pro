@@ -5,6 +5,8 @@ QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+VERSION = 1.0.0.1
+
 CONFIG += c++11
 
 LIBS += -lwlanapi
@@ -24,6 +26,6 @@ HEADERS += \
     view.h \
     wifipass.h
 
+RC_ICONS += ico/title.ico
 
-RESOURCES += \
-    resource.qrc
+RESOURCES += resource.qrc

@@ -3,7 +3,7 @@
 
 #include <QApplication>
 #include <QIcon>
-#include <QTranslator>
+#include <QResource>
 
 class Application : public QApplication{
 
