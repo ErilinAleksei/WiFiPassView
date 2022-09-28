@@ -1,7 +1,7 @@
 Description
 ===========
 
-	WiFi viewer.
+	WiFi password viewer 
 
 Requests
 ========
