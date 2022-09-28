@@ -1,2 +1,9 @@
-# WiFiPassView
-WiFi password viewer
+Description
+===========
+
+	WiFi viewer.
+
+Requests
+========
+	OS: Windows
+	
